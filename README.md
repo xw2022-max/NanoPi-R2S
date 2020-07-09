@@ -1,8 +1,5 @@
 # 使用 Github Actions 在线编译 NanoPi-R2S 固件
 
-* NanoPi R2S 购买链接: [https://s.click.taobao.com/rFvYQpv](https://s.click.taobao.com/rFvYQpv)
-* 降温外壳、风扇推荐: [https://item.taobao.com/item.htm?id=614834177074](https://item.taobao.com/item.htm?id=614834177074)
-
 ## 说明
 * IP: 192.168.2.1
 * 密码: password
@@ -11,6 +8,7 @@
 * 支持 RTL8821CU/RTL8822BU 芯片的 USB WiFi 设备，已知支持列表：
     - [COMFAST 726B](https://u.jd.com/DOkkhX)
     - [COMFAST CF-759BF](https://u.jd.com/C2ivH7)
+    - COMFAST CF-811AC
 * 集成 [frainzy1477/luci-app-clash](https://github.com/frainzy1477/luci-app-clash) 及其 clash bin（CONFIG_PACKAGE_luci-app-clash 默认没开启）
 * 集成 [vernesong/OpenClash](https://github.com/vernesong/OpenClash) 及其 clash bin
 * 集成 [rufengsuixing/luci-app-adguardhome](https://github.com/rufengsuixing/luci-app-adguardhome)（CONFIG_PACKAGE_luci-app-adguardhome 默认没开启）
