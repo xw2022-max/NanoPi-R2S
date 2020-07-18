@@ -143,6 +143,10 @@ jobs:
       - name: Install UPX
         run: |
           ln -s /usr/bin/upx-ucl friendlywrt-rk3328/friendlywrt/staging_dir/host/bin/upx
+          
+      - name: Switch to python3
+        run: |
+          sudo ln -s /usr/bin/python3 /usr/bin/python
 
       - name: Build OpenWrt
         run: |
