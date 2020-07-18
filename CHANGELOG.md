@@ -1,5 +1,7 @@
 ## 20200717
 * Add CONFIG_PACKAGE_TAR_ZSTD 以支持最新版内核
+* update Clash to 1.0.0
+* fix zstd package build failed (change tar.zst to tar.gz)
 
 ## 20200609
 * 支持 AR9271
