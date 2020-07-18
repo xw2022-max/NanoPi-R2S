@@ -2,6 +2,7 @@
 * Add CONFIG_PACKAGE_TAR_ZSTD
 * update Clash to 1.0.0
 * fix zstd package build failed (change tar.zst to tar.gz)
+* 
 
 ## 20200609
 * 支持 AR9271
