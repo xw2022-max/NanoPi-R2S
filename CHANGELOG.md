@@ -1,11 +1,8 @@
-## 20200717
-* Add CONFIG_PACKAGE_TAR_ZSTD
-* update Clash to 1.0.0
-* fix zstd package build failed (change tar.zst to tar.gz)
-* downgrade  meson to 0.52.1
-
 ## 20200609
 * 支持 AR9271
+## 20200718
+* Kernel 5.4.50
+* Clash 更新到 1.0.0
 
 ## 20200515
 * Kernel 5.4.40
