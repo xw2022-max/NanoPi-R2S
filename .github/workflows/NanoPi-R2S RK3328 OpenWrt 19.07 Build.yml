@@ -1,4 +1,4 @@
-name: NanoPi-R2S RK3328 OpenWrt 19.07
+name: NanoPi-R2S RK3328 OpenWrt 19.07 Build
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
 
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
 
@@ -90,8 +90,8 @@ jobs:
           
           svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
           
-
-
+          git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+          git clone https://github.com/NateLol/luci-app-oled
         
       - name: Install Clash Binaries
         run: |
@@ -115,6 +115,7 @@ jobs:
           cd code/friendlywrt		
           ./scripts/feeds update -a		
           ./scripts/feeds install -a
+
       - name: Install Mods
         run: |
           cd code/friendlywrt
