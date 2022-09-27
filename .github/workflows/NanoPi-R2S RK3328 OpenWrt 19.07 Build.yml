@@ -91,7 +91,7 @@ jobs:
           svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
           
 
-          git clone https://github.com/NateLol/luci-app-oled
+
         
       - name: Install Clash Binaries
         run: |
