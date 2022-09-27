@@ -89,8 +89,7 @@ jobs:
           svn co https://github.com/pymumu/luci-app-smartdns/branches/lede luci-app-smartdns
           
 
-          
-          git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
+
           git clone https://github.com/NateLol/luci-app-oled
         
       - name: Install Clash Binaries
